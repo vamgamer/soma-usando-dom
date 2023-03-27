@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Soma - JavaScript</title>
+</head>
+
+<body>
+    <h1>Soma usando DOM</h1>
+    <section class="cont">
+        <h1>Somar agora</h1>
+        <input type="number" name="valor1" id="valor1"> +
+        <input type="number" name="valor2" id="valor2">
+        <input type="button" value="SOMAR" onclick="somar('')">
+        <div id="res">Resultado:</div>
+    </section>
+    <footer>
+        <h3>
+            Desenvolvido por: DaviRexhausenVieira &reg; | <a href="mailto:rexdavi5855@gmail.com">Contato</a>
+        </h3>
+    </footer>
+    <script>
+        function somar() {
+            var v1 = document.querySelector('#valor1')
+            var v2 = document.querySelector('input#valor2')
+            var res = document.querySelector('div#res')
+
+            var n1 = Number(v1.value)
+            var n2 = Number(v2.value)
+            var s = n1 + n2
+
+            res.innerHTML = `A soma entre ${n1} e ${n2} é igual a ${s}`
+        }
+    </script>
+</body>
+
+</html>

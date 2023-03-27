@@ -1,0 +1,43 @@
+body{
+    background-image: url(https://www.pixelstalk.net/wp-content/uploads/images6/Naruto-Wallpaper-4K-HD-Free-download.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    overflow: hidden;
+}
+.cont{
+    text-align: center;
+    margin-top: 250px;
+    margin-left: 450px;
+    background-color: #000000c7;
+    width: 500px;
+}
+button{
+    border: none;
+    padding: 15px;
+}
+h1{
+    text-align: center;
+}
+footer{
+    background-color: #00000086;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    margin-top: 200px;
+}
+footer > h3{
+    padding: 10px;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 5px;
+    border-radius: 8px;
+    transition: .5s;
+}
+a:hover{
+    background-color: #fff;
+    color: #000;
+}
